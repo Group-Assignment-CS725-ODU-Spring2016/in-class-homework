@@ -20,7 +20,7 @@ sn <- read.csv("passing-stats-2014.csv", header =T)
 
 # subset data
 # Should clean spaces in headings of data
-data <- sn[,c("PassingAttempts","PassingYards","PassingTD","Rate","RushingYards","RushingTD")]
+data <- sn[,c("PassingYards","PassingTD","Rate","RushingYards","RushingTD")]
 
 #Pairing data into matrix with three different colors
 pairs(data,main = "Title: Performance of Football Player in Scatter Plot Matrix",pch = 21, bg = c("red", "green3", "blue") )
