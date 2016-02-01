@@ -2,11 +2,11 @@
 ---------------------------------------------------
 __Team Members:__ Srinivas Havanur; Erika Siregar; Hung Do
 
-Assignment: ICW2: Football data analysis
+__Assignment:__ ICW2: Football data analysis
 
-Course: Information Visualization
+__Course:__ Information Visualization
 
-Semester: Spring 2016
+__Semester:__ Spring 2016
 
 ---------------------------------------------------
 ###1.Scatterplot matrix of passing yards, passing TDs, passer rating, rushing yards, and rushing TDs
