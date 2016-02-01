@@ -1,9 +1,6 @@
 ## ICW2: Football data analysis
 ---------------------------------------------------
-Team Members: 
-> Srinivas Havanur; 
-> Erika Siregar; 
-> Hung Do
+__Team Members:__ Srinivas Havanur; Erika Siregar; Hung Do
 
 Assignment: ICW2: Football data analysis
 
