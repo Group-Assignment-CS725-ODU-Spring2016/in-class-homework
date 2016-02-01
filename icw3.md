@@ -2,4 +2,4 @@
 
 ![R image](ScatterplotMatrix.png)
 
-![R image](Avg_PassingAttempts.JPG)
+![R image](Avg_PassingAttempts.jpg)
