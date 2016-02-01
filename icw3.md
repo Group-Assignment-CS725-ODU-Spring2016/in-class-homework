@@ -29,7 +29,7 @@ pairs(data,main = "Scatterplot Matrix",pch = 21, bg = c("red", "green3", "blue")
 ```
 ---------------------------------------------------
 
-2.Bar chart of passing yards per player (best displayed as a horizontal bar chart), with conference as color
+###2. Bar chart of passing yards per player (best displayed as a horizontal bar chart), with conference as color
 
 ![R image](barchar-football.png)
 Embedding R code in Markdown:
@@ -45,7 +45,7 @@ library(caret)
 ggplot(sports, aes(x=sports$Player, y=sports$PassingYards, fill=sports$Conf)) + geom_bar(stat="identity") + coord_flip() + labs(x="Player Names",y="Passing Yards",fill="Conference") + ggtitle("Title: Passing yards per player with conference as color")
 ```
 
-3.Bar chart of the average of one of the statistics for each conference
+###3. Bar chart of the average of one of the statistics for each conference
 ![R image](Avg_PassingAttempts.jpg)
 
 Embedding R code in Markdown:
