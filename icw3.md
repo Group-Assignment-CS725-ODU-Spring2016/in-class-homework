@@ -1,8 +1,9 @@
 ## ICW2: Football data analysis
 ---------------------------------------------------
-Team Members: Srinivas Havanur; 
-              Erika Siregar; 
-              Hung Do
+Team Members: 
+> Srinivas Havanur; 
+> Erika Siregar; 
+> Hung Do
 Assignment: ICW2: Football data analysis
 Course: Information Visualization
 Semester: Spring 2016
