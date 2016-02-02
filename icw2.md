@@ -41,7 +41,7 @@ sports <- read.csv(file.choose(), header=TRUE, sep=",")
 library(caret)
 
 #Graph is plotted using ggplot having horizontal bar chart option to represent PassingYards per player.
-ggplot(sports, aes(x=sports$Player, y=sports$PassingYards, fill=sports$Conf)) + geom_bar(stat="identity") + coord_flip() + labs(x="Player Names",y="Passing Yards",fill="Conference") + ggtitle("Title: Passing yards per player with conference as color")
+ggplot(sports, aes(x=sports$Player, y=sports$PassingYards, fill=sports$Conf)) + geom_bar(stat="identity") + coord_flip() + labs(x="Player Names",y="Passing Yards",fill="Conference") + ggtitle("Title: Passing yards per player with conference as color") +  scale_fill_brewer(palette="Paired")
 ```
 
 ###3. Bar chart of the average of one of the statistics for each conference
