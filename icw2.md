@@ -70,8 +70,12 @@ sports_filtered_avg=summaryBy(PassingAttempts ~ Conf, data = sports,FUN = list(m
 ggplot(sports_filtered_avg, aes(sports_filtered_avg$Conf,sports_filtered_avg$PassingAttempts.mean)) + geom_bar(stat="identity", fill="steelblue") + labs(x="Conference", y="Avg Value of Passing Attempts") + ggtitle("Title: Avg of PassingAttempts statistics for each Conference")
 
 ```
+
+
 b) With Color Code:
 ![avg_passingattempts2](https://cloud.githubusercontent.com/assets/11856540/12739232/7f3a17a8-c935-11e5-8ab5-44e95a32ef4e.JPG)
+
+
 Embedding R code in Markdown:
 
 ```R
