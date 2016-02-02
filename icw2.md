@@ -45,7 +45,9 @@ ggplot(sports, aes(x=sports$Player, y=sports$PassingYards, fill=sports$Conf)) + 
 ```
 
 ###3. Bar chart of the average of one of the statistics for each conference
-![R image](Avg_PassingAttempts.jpg)
+![avg_passingattempts1](https://cloud.githubusercontent.com/assets/11856540/12739222/6917d366-c935-11e5-8187-43bf079d6b70.JPG)
+
+a) Without Color Code:
 
 Embedding R code in Markdown:
 
@@ -64,6 +66,6 @@ library(caret)
 sports_filtered_avg=summaryBy(PassingAttempts ~ Conf, data = sports,FUN = list(mean))
 
 #Graph is plotted using ggplot to represent a bar graph having average of PassingAttempts per conference.
-ggplot(sports_filtered_avg, aes(sports_filtered_avg$Conf,sports_filtered_avg$PassingAttempts.mean)) + geom_bar(stat="identity", fill="steelblue") + labs(x="Conference", y="Avg Value") + ggtitle("Title: Avg of PassingAttempts statistics for each Conference")
+ggplot(sports_filtered_avg, aes(sports_filtered_avg$Conf,sports_filtered_avg$PassingAttempts.mean)) + geom_bar(stat="identity", fill="steelblue") + labs(x="Conference", y="Avg Value of Passing Attempts") + ggtitle("Title: Avg of PassingAttempts statistics for each Conference")
 
 ```
